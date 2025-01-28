@@ -1,0 +1,55 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+
+# Dependencies
+node_modules
+.pnp
+.pnp.js
+
+#pnpm (for now)
+pnpm-lock.yaml
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Testing
+coverage
+
+# Turbo
+.turbo
+
+# Vercel
+.vercel
+
+# Sentry Config File
+.sentryclirc
+
+# Build Outputs
+.next/
+.nest/
+out/
+build
+dist
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Misc
+.DS_Store
+.secrets
+.cert
+certificates
+*.pem
+
+# Other
+__OLD_PAGES/
+__OLD
+
+# Sentry Config File
+.env.sentry-build-plugin

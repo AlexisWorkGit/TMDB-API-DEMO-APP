@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json.schemastore.org/prettierrc.json",
+
+  "tabWidth": 2,
+  "printWidth": 100,
+  "semi": true,
+  "useTabs": false,
+  "singleQuote": false,
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "arrowParens": "always",
+  "trailingComma": "es5",
+  "importOrder": [
+    "^(react/(.*)$)|^(react$)",
+    "^(next/(.*)$)|^(next$)",
+    "<THIRD_PARTY_MODULES>",
+    "",
+    "^types$",
+    "^@/types/(.*)$",
+    "^@/config/(.*)$",
+    "^@/lib/(.*)$",
+    "^@/hooks/(.*)$",
+    "^@/components/ui/(.*)$",
+    "^@/components/(.*)$",
+    "^@/styles/(.*)$",
+    "^@/app/(.*)$",
+    "",
+    "^[./]"
+  ],
+  "importOrderSeparation": false,
+  "importOrderSortSpecifiers": true,
+  "importOrderBuiltinModulesToTop": true,
+  "importOrderParserPlugins": ["typescript", "jsx", "decorators-legacy"],
+  "importOrderMergeDuplicateImports": true,
+  "importOrderCombineTypeAndValueImports": true,
+  "multilineArraysWrapThreshold": 3,
+  "plugins": ["prettier-plugin-multiline-arrays", "@ianvs/prettier-plugin-sort-imports"]
+}
