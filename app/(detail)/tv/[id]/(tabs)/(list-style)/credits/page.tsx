@@ -1,7 +1,7 @@
 import type { SimpleIdParams } from "@/types/params";
 import { tmdb } from "@/lib/tmdb/api";
 import { Separator } from "@/components/ui/separator";
-import { MediaCastCard, MediaCrewCard } from "@/components/composite/media";
+import { MediaCastCard, MediaCrewCard } from "@/components/molecules/media";
 
 interface DetailCreditsProps {
   params: SimpleIdParams;

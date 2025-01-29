@@ -2,8 +2,8 @@ import { redirect } from "next/navigation";
 
 import type { SearchQueryTypeParams, SearchResultType } from "@/types/search";
 import { tmdb } from "@/lib/tmdb/api";
-import { ListPagination } from "@/components/composite/list";
-import { SearchResultCard } from "@/components/composite/search";
+import { SearchResultCard } from "@/components/atoms/search";
+import { ListPagination } from "@/components/molecules/list";
 
 interface SearchProps {
   searchParams: SearchQueryTypeParams;

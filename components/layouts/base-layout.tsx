@@ -3,10 +3,10 @@ import HolyLoader from "holy-loader";
 
 import { ThemeProvider } from "@/lib/providers/theme-provider";
 import { Toaster } from "@/components/ui/toaster";
-import { GridBg } from "@/components/composite/images";
-import { ScrollTop } from "@/components/composite/scroll";
-import { SiteFooter, SiteHeader } from "@/components/composite/site";
-import { TailwindIndicator } from "@/components/composite/tailwind";
+import { GridBg } from "@/components/atoms/images";
+import { ScrollTop } from "@/components/atoms/scroll";
+import { SiteFooter, SiteHeader } from "@/components/organism/site";
+import { TailwindIndicator } from "@/components/tailwind";
 
 interface BaseLayoutProps {
   children: React.ReactNode;

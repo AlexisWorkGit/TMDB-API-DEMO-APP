@@ -11,7 +11,7 @@ import {
   MediaPoster,
   MediaRating,
   MediaTrailerDialog,
-} from "@/components/composite/media";
+} from "@/components/molecules/media";
 
 interface DetailLayoutProps {
   params: {

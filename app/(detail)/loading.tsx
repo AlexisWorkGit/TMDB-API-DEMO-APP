@@ -1,1 +1,1 @@
-export { SkeletonMediaDetail as default } from "@/components/composite/media";
+export { SkeletonMediaDetail as default } from "@/components/molecules/media";

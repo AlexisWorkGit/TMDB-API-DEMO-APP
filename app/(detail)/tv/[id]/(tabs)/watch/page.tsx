@@ -1,5 +1,5 @@
 import type { SimpleIdParams } from "@/types/params";
-import { MediaWatchProviders } from "@/components/composite/media";
+import { MediaWatchProviders } from "@/components/molecules/media";
 
 interface DetailWatchProps {
   params: SimpleIdParams;

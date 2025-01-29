@@ -13,8 +13,8 @@ import {
   MediaPoster,
   MediaRating,
   MediaTrailerDialog,
-} from "@/components/composite/media";
-import { InfoTooltip } from "@/components/composite/tooltip";
+} from "@/components/molecules/media";
+import { InfoTooltip } from "@/components/organism/tooltip";
 
 interface DetailLayoutProps {
   params: SimpleIdParams;

@@ -1,7 +1,7 @@
 import { pages } from "@/config";
 
 import type { SearchTrendTypeParams } from "@/types/search";
-import { TrendList } from "@/components/composite/trend";
+import { TrendList } from "@/components/molecules/trend";
 
 interface TrendingPageProps {
   searchParams?: SearchTrendTypeParams;

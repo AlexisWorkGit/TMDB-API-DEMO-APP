@@ -47,6 +47,7 @@ const eslitConfig = [
       "**/.cache",
       "**/build",
       "README.md",
+      "**/*.test.tsx",
     ],
   },
   ...fixupConfigRules(

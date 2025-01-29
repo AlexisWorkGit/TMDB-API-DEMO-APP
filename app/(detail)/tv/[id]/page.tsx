@@ -6,7 +6,7 @@ import { format } from "@/lib/tmdb/utils";
 import { cn, formatValue, joiner, pad } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 import { buttonVariants } from "@/components/ui/button";
-import { MediaBackdrop } from "@/components/composite/media";
+import { MediaBackdrop } from "@/components/molecules/media";
 
 interface DetailProps {
   params: SimpleIdParams;

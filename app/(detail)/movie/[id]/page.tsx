@@ -4,7 +4,7 @@ import { format } from "@//lib/tmdb/utils";
 import { SimpleIdParams } from "@/types/params";
 import { tmdb } from "@/lib/tmdb/api";
 import { formatValue, joiner } from "@/lib/utils";
-import { MovieCollection } from "@/components/composite/movie";
+import { MovieCollection } from "@/components/molecules/movie";
 
 interface DetailProps {
   params: SimpleIdParams;
