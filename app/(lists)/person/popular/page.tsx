@@ -1,7 +1,7 @@
 import { pages } from "@/config";
 
 import type { SearchListTypeParams } from "@/types/search";
-import { PersonList } from "@/components/composite/person";
+import { PersonList } from "@/components/molecules/person";
 
 interface ListPageProps {
   searchParams?: SearchListTypeParams;

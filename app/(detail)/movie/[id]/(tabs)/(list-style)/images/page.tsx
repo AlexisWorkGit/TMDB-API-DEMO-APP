@@ -1,6 +1,6 @@
 import type { SimpleIdParams } from "@/types/params";
 import { tmdb } from "@/lib/tmdb/api";
-import { MediaImages } from "@/components/composite/media";
+import { MediaImages } from "@/components/molecules/media";
 
 interface DetailImagesProps {
   params: SimpleIdParams;

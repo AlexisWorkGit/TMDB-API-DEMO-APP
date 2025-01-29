@@ -4,8 +4,8 @@ import Link from "next/link";
 import type { SimpleIdParams } from "@/types/params";
 import type { SearchTvTypeParams } from "@/types/search";
 import { tmdb } from "@/lib/tmdb/api";
-import { MediaCard, MediaPoster, MediaRating } from "@/components/composite/media";
-import { TvSeasonDetails } from "@/components/composite/tv";
+import { MediaCard, MediaPoster, MediaRating } from "@/components/molecules/media";
+import { TvSeasonDetails } from "@/components/molecules/tv";
 
 interface DetailSeasonsProps {
   params: SimpleIdParams;

@@ -1,8 +1,8 @@
 import type { SimpleIdParams } from "@/types/params";
 import type { SearchReviewTypeParams } from "@/types/search";
 import { tmdb } from "@/lib/tmdb/api";
-import { ListPagination } from "@/components/composite/list";
 import { UserReviewCard } from "@/components/composite/user";
+import { ListPagination } from "@/components/molecules/list";
 
 interface DetailReviewsProps {
   params: SimpleIdParams;

@@ -1,9 +1,9 @@
 import { Metadata } from "next";
 
 import { tmdb } from "@/lib/tmdb/api";
-import { MovieHero } from "@/components/composite/movie";
-import { TrendCarousel } from "@/components/composite/trend";
-import { TvHero } from "@/components/composite/tv";
+import { MovieHero } from "@/components/molecules/movie";
+import { TrendCarousel } from "@/components/molecules/trend";
+import { TvHero } from "@/components/molecules/tv";
 
 export const metadata: Metadata = {
   title: "Home",

@@ -1,8 +1,8 @@
 import type { SimpleIdParams } from "@/types/params";
 import type { SearchMovieTypeParams } from "@/types/search";
 import { tmdb } from "@/lib/tmdb/api";
-import { ListPagination } from "@/components/composite/list";
-import { MovieCard } from "@/components/composite/movie";
+import { ListPagination } from "@/components/molecules/list";
+import { MovieCard } from "@/components/molecules/movie";
 
 interface DetailSimilarProps {
   params: SimpleIdParams;

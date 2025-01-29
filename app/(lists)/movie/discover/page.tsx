@@ -5,9 +5,9 @@ import type { SearchListTypeParams } from "@/types/search";
 import { tmdb } from "@/lib/tmdb/api";
 import { SortByType } from "@/lib/tmdb/api/types";
 import { filterDiscoverParams } from "@/lib/utils";
-import { DiscoverFilters, DiscoverSort } from "@/components/composite/discover";
-import { ListPagination } from "@/components/composite/list";
-import { MovieCard } from "@/components/composite/movie";
+import { DiscoverFilters, DiscoverSort } from "@/components/molecules/discover";
+import { ListPagination } from "@/components/molecules/list";
+import { MovieCard } from "@/components/molecules/movie";
 
 interface ListPageProps {
   searchParams?: SearchListTypeParams;

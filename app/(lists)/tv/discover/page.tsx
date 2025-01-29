@@ -6,8 +6,8 @@ import { tmdb } from "@/lib/tmdb/api";
 import { SortByType } from "@/lib/tmdb/api/types";
 import { filterDiscoverParams } from "@/lib/utils";
 import { DiscoverFilters, DiscoverSort } from "@/components/composite/discover";
-import { ListPagination } from "@/components/composite/list";
-import { TvCard } from "@/components/composite/tv";
+import { ListPagination } from "@/components/molecules/list";
+import { TvCard } from "@/components/molecules/tv";
 
 interface ListPageProps {
   searchParams?: SearchListTypeParams;

@@ -1,7 +1,7 @@
 import { pages } from "@/config";
 
 import type { SearchListTypeParams } from "@/types/search";
-import { TvList } from "@/components/composite/tv";
+import { TvList } from "@/components/molecules/tv";
 
 interface ListPageProps {
   searchParams?: SearchListTypeParams;

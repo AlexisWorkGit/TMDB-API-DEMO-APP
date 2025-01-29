@@ -1,7 +1,7 @@
 import { pages } from "@/config";
 
 import type { SearchListTypeParams } from "@/types/search";
-import { MovieList } from "@/components/composite/movie";
+import { MovieList } from "@/components/molecules/movie";
 
 interface ListPageProps {
   searchParams?: SearchListTypeParams;

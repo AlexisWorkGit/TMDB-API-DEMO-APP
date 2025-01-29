@@ -1,8 +1,8 @@
 import type { SimpleIdParams } from "@/types/params";
 import type { SearchTvTypeParams } from "@/types/search";
 import { tmdb } from "@/lib/tmdb/api";
-import { ListPagination } from "@/components/composite/list";
-import { TvCard } from "@/components/composite/tv";
+import { ListPagination } from "@/components/molecules/list";
+import { TvCard } from "@/components/molecules/tv";
 
 interface DetailRecommendationsProps {
   params: SimpleIdParams;

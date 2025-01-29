@@ -1,6 +1,6 @@
 import { SimpleIdParams } from "@/types/params";
 import { tmdb } from "@/lib/tmdb/api";
-import { VideoList } from "@/components/composite/video";
+import { VideoList } from "@/components/molecules/video";
 
 interface DetailVideosProps {
   params: SimpleIdParams;

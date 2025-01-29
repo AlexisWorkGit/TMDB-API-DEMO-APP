@@ -10,10 +10,10 @@ import {
   MediaDetailView,
   MediaImages,
   MediaPoster,
-} from "@/components/composite/media";
-import { MovieCard } from "@/components/composite/movie";
-import { PersonCreditsTable } from "@/components/composite/person";
-import { TvCard } from "@/components/composite/tv";
+} from "@/components/molecules/media";
+import { MovieCard } from "@/components/molecules/movie";
+import { PersonCreditsTable } from "@/components/molecules/person";
+import { TvCard } from "@/components/molecules/tv";
 
 interface DetailProps {
   params: SimpleIdParams;

@@ -1,4 +1,4 @@
-import { SkeletonReviewCard } from "@/components/composite/user";
+import { SkeletonReviewCard } from "@/components/atoms/user";
 
 export default function Loading() {
   return (
