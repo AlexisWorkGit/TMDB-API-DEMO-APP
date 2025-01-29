@@ -3,7 +3,6 @@ import { fireEvent, render, screen } from "@testing-library/react";
 
 import { SiteNav } from "@/components/organism/site";
 
-// Mock Next.js Image component
 jest.mock("next/image", () => ({
   __esModule: true,
   default: (props: any) => {
@@ -11,7 +10,6 @@ jest.mock("next/image", () => ({
   },
 }));
 
-// Mock Next.js Link component
 jest.mock("next/link", () => ({
   __esModule: true,
   default: ({ children, href }: { children: React.ReactNode; href: string }) => (
@@ -19,7 +17,6 @@ jest.mock("next/link", () => ({
   ),
 }));
 
-// Mock the navigation configuration with more realistic data
 jest.mock("@/config", () => ({
   navigation: {
     items: [
@@ -64,7 +61,6 @@ jest.mock("@/hooks", () => ({
   useActiveNav: jest.fn(() => false),
 }));
 
-// Mock ResizeObserver
 global.ResizeObserver = class {
   observe() {}
   unobserve() {}
@@ -117,7 +113,6 @@ describe("SiteNav", () => {
     it("filters out home item from navigation", () => {
       render(<SiteNav />);
 
-      // Home should not be in the navigation menu
       const homeLink = screen.queryByText("Home");
       expect(homeLink).not.toBeInTheDocument();
     });
@@ -125,7 +120,6 @@ describe("SiteNav", () => {
     it("renders navigation items with correct links", () => {
       render(<SiteNav />);
 
-      // Check for TV Shows link (single item)
       const tvShowsLink = screen.getByRole("link", { name: /TV Shows/i });
       expect(tvShowsLink).toHaveAttribute("href", "/tv");
     });
@@ -135,7 +129,6 @@ describe("SiteNav", () => {
     it("renders dropdown menu items correctly", () => {
       render(<SiteNav />);
 
-      // Find the Movies trigger
       const moviesTrigger = screen.getByText("Movies");
       expect(moviesTrigger).toBeInTheDocument();
     });
@@ -144,11 +137,9 @@ describe("SiteNav", () => {
       it("renders NEW badge for Discover item", () => {
         render(<SiteNav />);
 
-        // Find the Movies trigger and click it to show dropdown
         const moviesTrigger = screen.getByText("Movies");
         fireEvent.click(moviesTrigger);
 
-        // Check for the Discover item with NEW badge
         const discoverItem = screen.getByText("Discover");
         const newBadge = screen.getByText("NEW");
 

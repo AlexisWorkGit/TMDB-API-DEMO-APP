@@ -39,7 +39,6 @@ describe("VideoCard", () => {
 
   it("renders play circle icon", () => {
     render(<VideoCard {...mockProps} />);
-    // Since PlayCircle is an SVG icon, we can check for its presence by its positioning class
     expect(document.querySelector(".absolute.left-1\\/2.top-1\\/2")).toBeInTheDocument();
   });
 
